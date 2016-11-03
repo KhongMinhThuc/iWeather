@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Gho-im-2jb">
+                                <rect key="frame" x="0.0" y="28" width="320" height="540"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uC8-F4-Uav">
+                                <rect key="frame" x="242" y="150" width="27" height="35"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" red="1" green="0.25873518327923761" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="F" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SfH-BQ-Nwq">
+                                <rect key="frame" x="242" y="150" width="27" height="35"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" red="1" green="0.2587351833" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pMe-KA-VUs">
+                                <rect key="frame" x="245" y="119" width="27" height="35"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <color key="textColor" red="1" green="0.15433702551952466" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="location" translatesAutoresizingMaskIntoConstraints="NO" id="Wf1-hl-ijX">
+                                <rect key="frame" x="20" y="38" width="24" height="24"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hai Bà Trưng, Hà Nội" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQz-CV-Ipm">
+                                <rect key="frame" x="52" y="39" width="295" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.92825270280000005" green="0.97380350550000006" blue="0.95498107320000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rain.png" translatesAutoresizingMaskIntoConstraints="NO" id="A5q-5G-7E5">
+                                <rect key="frame" x="96" y="254" width="128" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8WQ-dV-l9Q">
+                                <rect key="frame" x="5" y="322" width="310" height="184"/>
+                                <string key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley </string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.51966313465704594" green="0.9485518882018158" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4R-0e-hNi">
+                                <rect key="frame" x="116" y="461" width="88" height="91"/>
+                                <state key="normal" image="update.png">
+                                    <color key="titleColor" red="0.98468763979999996" green="0.95210595710000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="updateWeather:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LMP-pl-jbL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZp-aw-8rk">
+                                <rect key="frame" x="14" y="85" width="286" height="215"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="69"/>
+                                <state key="normal" title="25.0">
+                                    <color key="titleColor" red="1" green="0.1543370255" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="convertTemp1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GLS-uJ-uF2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="Clabel" destination="uC8-F4-Uav" id="Qn1-So-er4"/>
+                        <outlet property="Flable" destination="SfH-BQ-Nwq" id="Bny-hC-y72"/>
+                        <outlet property="background" destination="Gho-im-2jb" id="vRe-hz-bid"/>
+                        <outlet property="degreeLable" destination="pMe-KA-VUs" id="RGT-Kf-oGg"/>
+                        <outlet property="location" destination="kQz-CV-Ipm" id="BqZ-1r-GJn"/>
+                        <outlet property="locations" destination="kQz-CV-Ipm" id="Wwa-Ph-IAh"/>
+                        <outlet property="quote" destination="8WQ-dV-l9Q" id="DK7-ip-N3M"/>
+                        <outlet property="temprature" destination="yZp-aw-8rk" id="hfI-Sz-PKd"/>
+                        <outlet property="weather" destination="A5q-5G-7E5" id="Fk9-nU-ptr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-361" y="202"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1.jpg" width="461" height="346"/>
+        <image name="location" width="29" height="29"/>
+        <image name="rain.png" width="128" height="128"/>
+        <image name="update.png" width="128" height="128"/>
+    </resources>
+</document>
